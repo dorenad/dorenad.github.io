@@ -78,32 +78,38 @@
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/19/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <hr>
+<h2 id="Create-your-own-blog-using-github-amp-hexo"><a href="#Create-your-own-blog-using-github-amp-hexo" class="headerlink" title="Create your own blog using github &amp; hexo"></a>Create your own blog using github &amp; hexo</h2><p>Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Register-a-Github-Account"><a href="#Register-a-Github-Account" class="headerlink" title="Register a Github Account"></a>Register a Github Account</h3><p>Sign up here(<a href="https://github.com" target="_blank" rel="external">https://github.com</a>)</p>
+<h3 id="Install-git-node-js-amp-Hexo"><a href="#Install-git-node-js-amp-Hexo" class="headerlink" title="Install git, node.js &amp; Hexo"></a>Install git, node.js &amp; Hexo</h3><p>Download git here(<a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a>)<br>Download node.js here(<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download/</a>)<br>Download Hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
+<p>More info: <a href="https://hexo.io/docs/" target="_blank" rel="external">Server</a></p>
+<h3 id="Create-Your-Blog"><a href="#Create-Your-Blog" class="headerlink" title="Create Your Blog"></a>Create Your Blog</h3><ol>
+<li><p>Initialize your blog locally<br>Create a blog folder with any name, enter this folder and make an initialization.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> your_blog_dir</div><div class="line">$ hexo init</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+</li>
+<li><p>Create a repo<br>Go to your github(<a href="https://github.com/your_github_name" target="_blank" rel="external">https://github.com/your_github_name</a>) &amp; add a repo(example: your_github_name.github.io)</p>
+</li>
+<li><p>Configure your blog</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi _config.yml</div></pre></td></tr></table></figure>
+<p>Click i and modify _config.yml as below<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">title: Choose a title</div><div class="line">subtitle: Any subtitle you like</div><div class="line">description: Anything you like</div><div class="line">author: Your name</div><div class="line">language: zh-CN</div><div class="line">timezone: UTC</div></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line"> <span class="built_in">type</span>: git</div><div class="line"> <span class="comment"># 可以在 Github repository 首页的 `Clone or download` 按钮下找到下面的链接</span></div><div class="line"> repo: https://github.com/your_github_name/your_github_name.github.io</div><div class="line"> branch: master</div></pre></td></tr></table></figure>
+<p>Here we need to pay attention to 3 things:<br>1) After each “:” there is an empty space.<br>2) There is an empty space before “type”, “repo” and “branch” under deploy.<br>3) The repo needs to be <a href="https://github.com/your_github_name/your_github_name.github.io" target="_blank" rel="external">https://github.com/your_github_name/your_github_name.github.io</a>, otherwise there might be 404</p>
+<ol>
+<li>Deploy<br>Make sure your blog works perfectly before the deployment.<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>Go to here(localhost://4000)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo g</div><div class="line">$ hexo d</div></pre></td></tr></table></figure>
+<p>Go to here(<a href="https://your_github_name.github.io" target="_blank" rel="external">https://your_github_name.github.io</a>)</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/child/2017/04/19/hello-world/" data-id="cj1oxuujw0000ft8j88hlgsxf" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/child/2017/04/19/hello-world/" data-id="cj1oywqwn0000uj8jcpbnbmzj" class="article-share-link">Share</a>
       
       
     </footer>
@@ -143,7 +149,7 @@
       <ul>
         
           <li>
-            <a href="/2017/04/19/hello-world/">Hello World</a>
+            <a href="/2017/04/19/hello-world/">(no title)</a>
           </li>
         
       </ul>
