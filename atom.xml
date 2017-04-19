@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/child/"/>
-  <updated>2017-04-19T12:48:35.000Z</updated>
+  <updated>2017-04-19T12:50:47.000Z</updated>
   <id>http://yoursite.com/child/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/child/2017/04/19/hello-world/"/>
     <id>http://yoursite.com/child/2017/04/19/hello-world/</id>
     <published>2017-04-19T02:24:33.000Z</published>
-    <updated>2017-04-19T12:48:35.000Z</updated>
+    <updated>2017-04-19T12:50:47.000Z</updated>
     
     <content type="html"><![CDATA[<hr>
 <h2 id="Create-Your-Own-Blog-Using-Github-amp-Hexo"><a href="#Create-Your-Own-Blog-Using-Github-amp-Hexo" class="headerlink" title="Create Your Own Blog Using Github &amp; Hexo"></a>Create Your Own Blog Using Github &amp; Hexo</h2><p>Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.</p>
@@ -31,7 +31,7 @@
 <li><p>Initialize your blog locally<br>Create a blog folder with any name, enter this folder and make an initialization.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> your_blog_dir</div><div class="line">$ hexo init</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
 </li>
-<li><p>Create a repo<br>Go to your <a href="https://github.com/your_github_name" target="_blank" rel="external">github</a> &amp; add a repo(example: your_github_name.github.io)</p>
+<li><p>Create a repo<br>Go to your <a href="https://github.com" target="_blank" rel="external">github</a> &amp; add a repo(example: your_github_name.github.io)</p>
 </li>
 <li><p>Configure your blog</p>
 </li>
@@ -44,9 +44,9 @@
 <li>Deploy<br>Make sure your blog works perfectly before the deployment.<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<p>Go to <a href="http://localhost://4000" target="_blank" rel="external">here</a></p>
+<p>Go to <a href="http://localhost://4000" target="_blank" rel="external">your local blog</a></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo g</div><div class="line">$ hexo d</div></pre></td></tr></table></figure>
-<p>Go to <a href="https://your_github_name.github.io" target="_blank" rel="external">here</a></p>
+<p>Go to <a href="https://your_github_name.github.io" target="_blank" rel="external">your remote blog</a></p>
 ]]></content>
     
     <summary type="html">
