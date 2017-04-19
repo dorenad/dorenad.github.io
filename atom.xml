@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/child/"/>
-  <updated>2017-04-19T12:41:48.000Z</updated>
+  <updated>2017-04-19T12:48:35.000Z</updated>
   <id>http://yoursite.com/child/</id>
   
   <author>
@@ -20,18 +20,18 @@
     <link href="http://yoursite.com/child/2017/04/19/hello-world/"/>
     <id>http://yoursite.com/child/2017/04/19/hello-world/</id>
     <published>2017-04-19T02:24:33.000Z</published>
-    <updated>2017-04-19T12:41:48.000Z</updated>
+    <updated>2017-04-19T12:48:35.000Z</updated>
     
     <content type="html"><![CDATA[<hr>
-<h2 id="Create-your-own-blog-using-github-amp-hexo"><a href="#Create-your-own-blog-using-github-amp-hexo" class="headerlink" title="Create your own blog using github &amp; hexo"></a>Create your own blog using github &amp; hexo</h2><p>Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Register-a-Github-Account"><a href="#Register-a-Github-Account" class="headerlink" title="Register a Github Account"></a>Register a Github Account</h3><p>Sign up here(<a href="https://github.com" target="_blank" rel="external">https://github.com</a>)</p>
-<h3 id="Install-git-node-js-amp-Hexo"><a href="#Install-git-node-js-amp-Hexo" class="headerlink" title="Install git, node.js &amp; Hexo"></a>Install git, node.js &amp; Hexo</h3><p>Download git here(<a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a>)<br>Download node.js here(<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download/</a>)<br>Download Hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
-<p>More info: <a href="https://hexo.io/docs/" target="_blank" rel="external">Server</a></p>
+<h2 id="Create-Your-Own-Blog-Using-Github-amp-Hexo"><a href="#Create-Your-Own-Blog-Using-Github-amp-Hexo" class="headerlink" title="Create Your Own Blog Using Github &amp; Hexo"></a>Create Your Own Blog Using Github &amp; Hexo</h2><p>Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Register-a-Github-Account"><a href="#Register-a-Github-Account" class="headerlink" title="Register a Github Account"></a>Register a Github Account</h3><p>Sign up <a href="https://github.com" target="_blank" rel="external">here</a></p>
+<h3 id="Install-git-node-js-amp-Hexo"><a href="#Install-git-node-js-amp-Hexo" class="headerlink" title="Install git, node.js &amp; Hexo"></a>Install git, node.js &amp; Hexo</h3><p>Download git <a href="https://git-scm.com/downloads" target="_blank" rel="external">here</a><br>Download node.js <a href="https://nodejs.org/en/download/" target="_blank" rel="external">here</a><br>Download Hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
+<p>More info: <a href="https://hexo.io/docs/" target="_blank" rel="external">Hexo</a></p>
 <h3 id="Create-Your-Blog"><a href="#Create-Your-Blog" class="headerlink" title="Create Your Blog"></a>Create Your Blog</h3><ol>
 <li><p>Initialize your blog locally<br>Create a blog folder with any name, enter this folder and make an initialization.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> your_blog_dir</div><div class="line">$ hexo init</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
 </li>
-<li><p>Create a repo<br>Go to your github(<a href="https://github.com/your_github_name" target="_blank" rel="external">https://github.com/your_github_name</a>) &amp; add a repo(example: your_github_name.github.io)</p>
+<li><p>Create a repo<br>Go to your <a href="https://github.com/your_github_name" target="_blank" rel="external">github</a> &amp; add a repo(example: your_github_name.github.io)</p>
 </li>
 <li><p>Configure your blog</p>
 </li>
@@ -44,15 +44,15 @@
 <li>Deploy<br>Make sure your blog works perfectly before the deployment.<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<p>Go to here(localhost://4000)</p>
+<p>Go to <a href="http://localhost://4000" target="_blank" rel="external">here</a></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo g</div><div class="line">$ hexo d</div></pre></td></tr></table></figure>
-<p>Go to here(<a href="https://your_github_name.github.io" target="_blank" rel="external">https://your_github_name.github.io</a>)</p>
+<p>Go to <a href="https://your_github_name.github.io" target="_blank" rel="external">here</a></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;hr&gt;
-&lt;h2 id=&quot;Create-your-own-blog-using-github-amp-hexo&quot;&gt;&lt;a href=&quot;#Create-your-own-blog-using-github-amp-hexo&quot; class=&quot;headerlink&quot; title=&quot;Cre
+&lt;h2 id=&quot;Create-Your-Own-Blog-Using-Github-amp-Hexo&quot;&gt;&lt;a href=&quot;#Create-Your-Own-Blog-Using-Github-amp-Hexo&quot; class=&quot;headerlink&quot; title=&quot;Cre
     
     </summary>
     
