@@ -52,9 +52,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com/child"></form>
@@ -65,9 +65,73 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-python1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/04/19/hello-world/" class="article-date">
+    <a href="/2017/04/20/python1/" class="article-date">
+  <time datetime="2017-04-20T09:10:55.000Z" itemprop="datePublished">2017-04-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h2 id="Introduction-to-Python-Lession-1"><a href="#Introduction-to-Python-Lession-1" class="headerlink" title="Introduction to Python - Lession 1"></a>Introduction to Python - Lession 1</h2><p>The reason why I learn Python is to prepare for Machine Learning.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Download-Python"><a href="#Download-Python" class="headerlink" title="Download Python"></a>Download Python</h3><p>Download <a href="https://www.python.org/downloads/" target="_blank" rel="external">here</a> if you haven’t yet.</p>
+<p>Check if you have already downloaded Python</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python --version</div></pre></td></tr></table></figure>
+<p>If the terminal displays as below, you have already downloaded it; Otherwise you haven’t.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Python 2.7.10</div></pre></td></tr></table></figure>
+<h3 id="Run-a-Python-File"><a href="#Run-a-Python-File" class="headerlink" title="Run a Python File"></a>Run a Python File</h3><p>Create a folder</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mkdir python</div></pre></td></tr></table></figure>
+<p>Make a file</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ &gt;hello.py</div></pre></td></tr></table></figure>
+<p>Edit hello.py</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi hello.py</div></pre></td></tr></table></figure>
+<p>Enter “i” and input the following</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># Define a main() function that prints a little greeting</div><div class="line">def main():</div><div class="line">  print &quot;Hello Alice&quot;</div><div class="line"></div><div class="line"># This is the standard boilerplate that calls the main() function.</div><div class="line">if __name__ == &apos;__main__&apos;:</div><div class="line">  main()</div></pre></td></tr></table></figure>
+<p>Press esc, then input “:x” to exit<br>Input<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python hello.py</div></pre></td></tr></table></figure></p>
+<p>The result is<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hello Alice</div></pre></td></tr></table></figure></p>
+<p>The above example shows how to make a basic python file, then we will see how to use the existing functions within Python, rewrite hello.py as following</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">import sys</div><div class="line"></div><div class="line">def Hello(name):</div><div class="line">  name = name + &apos;!!!&apos;</div><div class="line">  print &apos;Hello&apos;, name</div><div class="line"></div><div class="line"># Define a main() function that prints a little greeting</div><div class="line">def main():</div><div class="line">  Hello(sys.argv[1])</div><div class="line"></div><div class="line"># This is the standard boilerplate that calls the main() function.</div><div class="line">if __name__ == &apos;__main__&apos;:</div><div class="line">  main()</div></pre></td></tr></table></figure>
+<p>Press esc, then input “:x” to exit<br>Input </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python hello.py Alice</div></pre></td></tr></table></figure>
+<p>The result is</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hello Alice!!!</div></pre></td></tr></table></figure>
+<p>The above example shows how to make inputs through command line, then we will see how to use if/else function, rewrite hello.py as following</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">import sys</div><div class="line"></div><div class="line">def Hello(name):</div><div class="line">  if name == &apos;Alice&apos; or name == &apos;Nick&apos;:</div><div class="line">    name = name + &apos;???&apos;</div><div class="line">  else:</div><div class="line">    name = name + &apos;%%%&apos;</div><div class="line">  name = name + &apos;!!!&apos;</div><div class="line">  print &apos;Hello&apos;, name</div><div class="line"></div><div class="line"># Define a main() function that prints a little greeting</div><div class="line">def main():</div><div class="line">  Hello(sys.argv[1])</div><div class="line"></div><div class="line"># This is the standard boilerplate that calls the main() function.</div><div class="line">if __name__ == &apos;__main__&apos;:</div><div class="line">  main()</div></pre></td></tr></table></figure>
+<p>Press esc, then input “:x” to exit<br>Input </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python hello.py Alice</div></pre></td></tr></table></figure>
+<p>The result is</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hello Alice???!!!</div></pre></td></tr></table></figure>
+<h3 id="Run-Python-Command"><a href="#Run-Python-Command" class="headerlink" title="Run Python Command"></a>Run Python Command</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python</div></pre></td></tr></table></figure>
+<p>The usage of ‘’ and “”</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt; &quot;I \&quot;love\&quot; this exercise&quot;</div><div class="line">&gt;&gt;&gt; &apos;I &quot;love&quot; this exercise&apos;</div><div class="line">&gt;&gt;&gt; &quot;isn&apos;t&quot;</div><div class="line">&gt;&gt;&gt; &quot;isn&apos;t&quot;</div><div class="line">&gt;&gt;&gt;</div></pre></td></tr></table></figure>
+<p>Press cmd+d to exit</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt; help(sys)</div></pre></td></tr></table></figure>
+<p>Long press q to exit</p>
+<p>This is the first day I learned Python, keep going!</p>
+<hr>
+<p>Reference <a href="https://www.youtube.com/watch?v=tKTZoB2Vjuk&amp;index=1&amp;list=PLfZeRfzhgQzTMgwFVezQbnpc1ck0I6CQl" target="_blank" rel="external">here</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/child/2017/04/20/python1/" data-id="cj1q8au170001wr8jptww01u0" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Hexo" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/04/19/Hexo/" class="article-date">
   <time datetime="2017-04-19T02:24:33.000Z" itemprop="datePublished">2017-04-19</time>
 </a>
     
@@ -106,7 +170,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/child/2017/04/19/hello-world/" data-id="cj1oz86sr00000u8jp89e86mv" class="article-share-link">Delen</a>
+      <a data-url="http://yoursite.com/child/2017/04/19/Hexo/" data-id="cj1q8au120000wr8jk683pguj" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -131,7 +195,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archieven</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li></ul>
     </div>
@@ -141,12 +205,16 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recente berichten</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2017/04/19/hello-world/">(no title)</a>
+            <a href="/2017/04/20/python1/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/04/19/Hexo/">(no title)</a>
           </li>
         
       </ul>
@@ -162,7 +230,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 Hannah Dong<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
