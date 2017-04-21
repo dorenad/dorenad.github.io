@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/child/"/>
-  <updated>2017-04-20T09:52:07.000Z</updated>
+  <updated>2017-04-21T09:50:28.000Z</updated>
   <id>http://yoursite.com/child/</id>
   
   <author>
@@ -17,13 +17,36 @@
   
   <entry>
     <title></title>
+    <link href="http://yoursite.com/child/2017/04/21/python2/"/>
+    <id>http://yoursite.com/child/2017/04/21/python2/</id>
+    <published>2017-04-21T09:30:53.000Z</published>
+    <updated>2017-04-21T09:50:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<h2 id="Introduction-to-Python-Lesson-2"><a href="#Introduction-to-Python-Lesson-2" class="headerlink" title="Introduction to Python - Lesson 2"></a>Introduction to Python - Lesson 2</h2><h2 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div></pre></td><td class="code"><pre><div class="line">$ python</div><div class="line">&gt;&gt;&gt; a=[1,2,3]</div><div class="line">&gt;&gt;&gt; a</div><div class="line">[1, 2, 3]</div><div class="line">&gt;&gt;&gt; a=[1,2,&apos;a&apos;]</div><div class="line">&gt;&gt;&gt; a</div><div class="line">[1, 2, &apos;a&apos;]</div><div class="line">&gt;&gt;&gt; len(a)</div><div class="line">3</div><div class="line">&gt;&gt;&gt; [1,2,&apos;a&apos;]+[3,4]</div><div class="line">[1,2,&apos;a&apos;,3,4]</div><div class="line">&gt;&gt;&gt; a=[1,2,3]</div><div class="line">&gt;&gt;&gt; b=a</div><div class="line">&gt;&gt;&gt; b</div><div class="line">[1,2,3]</div><div class="line">&gt;&gt;&gt; a[0]</div><div class="line">1</div><div class="line">&gt;&gt;&gt; a[0]=13</div><div class="line">&gt;&gt;&gt; a</div><div class="line">[13, 2, 3]</div><div class="line">&gt;&gt;&gt; b</div><div class="line">[13, 2, 3]</div><div class="line">&gt;&gt;&gt; b=a[:]</div><div class="line">&gt;&gt;&gt; b</div><div class="line">[13, 2, 3]</div><div class="line">&gt;&gt;&gt; a==b</div><div class="line">True</div><div class="line">&gt;&gt;&gt; a[1:3]</div><div class="line">&gt;&gt;&gt; [2, 3]</div><div class="line">&gt;&gt;&gt; a[:-1]</div><div class="line">[13, 2]</div><div class="line">&gt;&gt;&gt; for num in a: print num</div><div class="line">...</div><div class="line">13</div><div class="line">2</div><div class="line">3</div><div class="line">&gt;&gt;&gt; 2 in a</div><div class="line">True</div><div class="line">&gt;&gt;&gt; 14 in a</div><div class="line">False</div><div class="line">&gt;&gt;&gt; a.append(4)</div><div class="line">&gt;&gt;&gt; a</div><div class="line">[13, 2, 3, 4]</div><div class="line">&gt;&gt;&gt; a.pop(0)</div><div class="line">13</div><div class="line">&gt;&gt;&gt; a</div><div class="line">[2, 3, 4]</div><div class="line">&gt;&gt;&gt; del a[1]</div><div class="line">&gt;&gt;&gt; a</div><div class="line">[2, 4]</div><div class="line">&gt;&gt;&gt; b=12</div><div class="line">&gt;&gt;&gt; a=b</div><div class="line">&gt;&gt;&gt; del a</div><div class="line">&gt;&gt;&gt; b</div><div class="line">12</div><div class="line">&gt;&gt;&gt; a=[4,2,1,6]</div><div class="line">&gt;&gt;&gt; sorted(a)</div><div class="line">[1, 2, 4, 6]</div><div class="line">&gt;&gt;&gt; a</div><div class="line">[4, 2, 1, 6]</div><div class="line">&gt;&gt;&gt; a=sorted(a)</div><div class="line">&gt;&gt;&gt; a</div><div class="line">[1, 2, 4, 6]</div><div class="line">&gt;&gt;&gt; a=[&apos;ccc&apos;, &apos;aaa&apos;, &apos;d&apos;]</div><div class="line">&gt;&gt;&gt; sorted(a)</div><div class="line">[&apos;aaa&apos;, &apos;ccc&apos;, &apos;d&apos;]</div><div class="line">&gt;&gt;&gt; sorted(a, key=len)</div><div class="line">[&apos;d&apos;, &apos;ccc&apos;, &apos;aaa&apos;]</div><div class="line">&gt;&gt;&gt; def last(s):return s[-1]</div><div class="line">&gt;&gt;&gt; sorted(a, key=last)</div><div class="line">[&apos;aaa&apos;, &apos;ccc&apos;, &apos;d&apos;]</div><div class="line">&gt;&gt;&gt; &apos;:&apos;.join(a)</div><div class="line">&apos;ccc:aaa:d&apos;</div><div class="line">&gt;&gt;&gt; range(5)</div><div class="line">[0, 1, 2, 3, 4]</div></pre></td></tr></table></figure>
+<hr>
+<p>Reference <a href="https://www.youtube.com/watch?v=EPYupizJYQI&amp;index=2&amp;list=PLfZeRfzhgQzTMgwFVezQbnpc1ck0I6CQl" target="_blank" rel="external">here</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;Introduction-to-Python-Lesson-2&quot;&gt;&lt;a href=&quot;#Introduction-to-Python-Lesson-2&quot; class=&quot;headerlink&quot; title=&quot;Introduction to Python - 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="http://yoursite.com/child/2017/04/20/python1/"/>
     <id>http://yoursite.com/child/2017/04/20/python1/</id>
     <published>2017-04-20T09:10:55.000Z</published>
-    <updated>2017-04-20T09:52:07.000Z</updated>
+    <updated>2017-04-21T09:33:06.000Z</updated>
     
     <content type="html"><![CDATA[<hr>
-<h2 id="Introduction-to-Python-Lession-1"><a href="#Introduction-to-Python-Lession-1" class="headerlink" title="Introduction to Python - Lession 1"></a>Introduction to Python - Lession 1</h2><p>The reason why I learn Python is to prepare for Machine Learning.</p>
+<h2 id="Introduction-to-Python-Lesson-1"><a href="#Introduction-to-Python-Lesson-1" class="headerlink" title="Introduction to Python - Lesson 1"></a>Introduction to Python - Lesson 1</h2><p>The reason why I learn Python is to prepare for Machine Learning.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Download-Python"><a href="#Download-Python" class="headerlink" title="Download Python"></a>Download Python</h3><p>Download <a href="https://www.python.org/downloads/" target="_blank" rel="external">here</a> if you haven’t yet.</p>
 <p>Check if you have already downloaded Python</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python --version</div></pre></td></tr></table></figure>
@@ -65,7 +88,7 @@
     <summary type="html">
     
       &lt;hr&gt;
-&lt;h2 id=&quot;Introduction-to-Python-Lession-1&quot;&gt;&lt;a href=&quot;#Introduction-to-Python-Lession-1&quot; class=&quot;headerlink&quot; title=&quot;Introduction to Python 
+&lt;h2 id=&quot;Introduction-to-Python-Lesson-1&quot;&gt;&lt;a href=&quot;#Introduction-to-Python-Lesson-1&quot; class=&quot;headerlink&quot; title=&quot;Introduction to Python - 
     
     </summary>
     
