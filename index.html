@@ -125,6 +125,42 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-python3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h2 id="Introduction-to-Python-Lesson-3"><a href="#Introduction-to-Python-Lesson-3" class="headerlink" title="Introduction to Python - Lesson 3"></a>Introduction to Python - Lesson 3</h2><h2 id="Dictionary-Hash-Table"><a href="#Dictionary-Hash-Table" class="headerlink" title="Dictionary/Hash Table"></a>Dictionary/Hash Table</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div></pre></td><td class="code"><pre><div class="line">$ python</div><div class="line">&gt;&gt;&gt; d=&#123;&#125;</div><div class="line">&gt;&gt;&gt; d[&apos;a&apos;]=&apos;alpha&apos;</div><div class="line">&gt;&gt;&gt; d[&apos;o&apos;]=&apos;omega&apos;</div><div class="line">&gt;&gt;&gt; d[&apos;g&apos;]=&apos;gamma&apos;</div><div class="line">&gt;&gt;&gt; d[&apos;a&apos;]</div><div class="line">&apos;alpha&apos;</div><div class="line">&gt;&gt;&gt; d.get(x)</div><div class="line">&gt;&gt;&gt; d.get(a)</div><div class="line">&apos;alpha&apos;</div><div class="line">&gt;&gt;&gt; &apos;a&apos; in d</div><div class="line">True</div><div class="line">&gt;&gt;&gt; &apos;x&apos; in d</div><div class="line">False</div><div class="line">&gt;&gt;&gt; d.keys()</div><div class="line">[&apos;a&apos;, &apos;g&apos;, &apos;o&apos;]</div><div class="line">&gt;&gt;&gt; d.values()</div><div class="line">[&apos;alpha&apos;, &apos;gamma&apos;, &apos;omega&apos;]</div><div class="line">&gt;&gt;&gt; for k in sorted(d.keys()): print &apos;key:&apos;, k, &apos;-&gt;&apos;, d[k]</div><div class="line">...</div><div class="line">key: a -&gt; alpha</div><div class="line">key: g -&gt; gamma</div><div class="line">key: o -&gt; omega</div><div class="line">&gt;&gt;&gt; d.items()</div><div class="line">[(&apos;a&apos;, &apos;alpha&apos;), (&apos;g&apos;, &apos;gamma&apos;), (&apos;o&apos;, &apos;omega&apos;)]</div><div class="line">&gt;&gt;&gt; for tuplein d.items():print tuple</div><div class="line">...</div><div class="line">(&apos;a&apos;, &apos;alpha&apos;)</div><div class="line">(&apos;g&apos;, &apos;gamma&apos;)</div><div class="line">(&apos;o&apos;, &apos;omega&apos;)</div><div class="line">&gt;&gt;&gt; vi hello.py</div><div class="line">import sys</div><div class="line">def Cat(filename):</div><div class="line">  f=open(filename, &apos;rU&apos;)</div><div class="line">  text=f.read()</div><div class="line">  print text</div><div class="line">  f.close()</div><div class="line">  </div><div class="line">def main():</div><div class="line">  Cat(sys.argv[1])</div><div class="line">  </div><div class="line">if __name__==&apos;__main__&apos;:</div><div class="line">  main()</div><div class="line">&gt;&gt;&gt; &gt;small.txt</div><div class="line">Roses are red</div><div class="line"></div><div class="line">Are belong to you!</div><div class="line">&gt;&gt;&gt; python hello.py small.txt</div><div class="line">Roses are red</div><div class="line"></div><div class="line">Are belong to you!</div><div class="line">&gt;&gt;&gt; &apos;aaa bbb ccc&apos;.split()</div><div class="line">[&apos;aaa&apos;, &apos;bbb&apos;, &apos;ccc&apos;]</div></pre></td></tr></table></figure>
+<hr>
+<p>Reference <a href="https://www.youtube.com/watch?v=haycL41dAhg&amp;list=PLfZeRfzhgQzTMgwFVezQbnpc1ck0I6CQl&amp;index=3" target="_blank" rel="external">here</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/04/24/python3/">Expand all >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+  
     <article id="post-python2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     

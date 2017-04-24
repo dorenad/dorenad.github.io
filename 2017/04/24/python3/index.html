@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com/child">
-  <title>Archives: 2017/4 | Hannah Dong</title>
+  <title>Hannah Dong</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Introduction to Python - Lesson 3Dictionary/Hash Table1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253$ python&amp;gt;&amp;gt;&amp;gt; d=&amp;#123;&amp;#125;&amp;gt;&amp;gt;&amp;gt;">
+<meta name="keywords">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hannah Dong">
-<meta property="og:url" content="http://yoursite.com/child/archives/2017/04/index.html">
+<meta property="og:url" content="http://yoursite.com/child/2017/04/24/python3/index.html">
 <meta property="og:site_name" content="Hannah Dong">
+<meta property="og:description" content="Introduction to Python - Lesson 3Dictionary/Hash Table1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253$ python&amp;gt;&amp;gt;&amp;gt; d=&amp;#123;&amp;#125;&amp;gt;&amp;gt;&amp;gt;">
+<meta property="og:updated_time" content="2017-04-24T06:38:48.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hannah Dong">
+<meta name="twitter:description" content="Introduction to Python - Lesson 3Dictionary/Hash Table1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253$ python&amp;gt;&amp;gt;&amp;gt; d=&amp;#123;&amp;#125;&amp;gt;&amp;gt;&amp;gt;">
   
     <link rel="alternative" href="/atom.xml" title="Hannah Dong" type="application/atom+xml">
   
@@ -123,106 +128,131 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-python3" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h2 id="Introduction-to-Python-Lesson-3"><a href="#Introduction-to-Python-Lesson-3" class="headerlink" title="Introduction to Python - Lesson 3"></a>Introduction to Python - Lesson 3</h2><h2 id="Dictionary-Hash-Table"><a href="#Dictionary-Hash-Table" class="headerlink" title="Dictionary/Hash Table"></a>Dictionary/Hash Table</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div></pre></td><td class="code"><pre><div class="line">$ python</div><div class="line">&gt;&gt;&gt; d=&#123;&#125;</div><div class="line">&gt;&gt;&gt; d[&apos;a&apos;]=&apos;alpha&apos;</div><div class="line">&gt;&gt;&gt; d[&apos;o&apos;]=&apos;omega&apos;</div><div class="line">&gt;&gt;&gt; d[&apos;g&apos;]=&apos;gamma&apos;</div><div class="line">&gt;&gt;&gt; d[&apos;a&apos;]</div><div class="line">&apos;alpha&apos;</div><div class="line">&gt;&gt;&gt; d.get(x)</div><div class="line">&gt;&gt;&gt; d.get(a)</div><div class="line">&apos;alpha&apos;</div><div class="line">&gt;&gt;&gt; &apos;a&apos; in d</div><div class="line">True</div><div class="line">&gt;&gt;&gt; &apos;x&apos; in d</div><div class="line">False</div><div class="line">&gt;&gt;&gt; d.keys()</div><div class="line">[&apos;a&apos;, &apos;g&apos;, &apos;o&apos;]</div><div class="line">&gt;&gt;&gt; d.values()</div><div class="line">[&apos;alpha&apos;, &apos;gamma&apos;, &apos;omega&apos;]</div><div class="line">&gt;&gt;&gt; for k in sorted(d.keys()): print &apos;key:&apos;, k, &apos;-&gt;&apos;, d[k]</div><div class="line">...</div><div class="line">key: a -&gt; alpha</div><div class="line">key: g -&gt; gamma</div><div class="line">key: o -&gt; omega</div><div class="line">&gt;&gt;&gt; d.items()</div><div class="line">[(&apos;a&apos;, &apos;alpha&apos;), (&apos;g&apos;, &apos;gamma&apos;), (&apos;o&apos;, &apos;omega&apos;)]</div><div class="line">&gt;&gt;&gt; for tuplein d.items():print tuple</div><div class="line">...</div><div class="line">(&apos;a&apos;, &apos;alpha&apos;)</div><div class="line">(&apos;g&apos;, &apos;gamma&apos;)</div><div class="line">(&apos;o&apos;, &apos;omega&apos;)</div><div class="line">&gt;&gt;&gt; vi hello.py</div><div class="line">import sys</div><div class="line">def Cat(filename):</div><div class="line">  f=open(filename, &apos;rU&apos;)</div><div class="line">  text=f.read()</div><div class="line">  print text</div><div class="line">  f.close()</div><div class="line">  </div><div class="line">def main():</div><div class="line">  Cat(sys.argv[1])</div><div class="line">  </div><div class="line">if __name__==&apos;__main__&apos;:</div><div class="line">  main()</div><div class="line">&gt;&gt;&gt; &gt;small.txt</div><div class="line">Roses are red</div><div class="line"></div><div class="line">Are belong to you!</div><div class="line">&gt;&gt;&gt; python hello.py small.txt</div><div class="line">Roses are red</div><div class="line"></div><div class="line">Are belong to you!</div><div class="line">&gt;&gt;&gt; &apos;aaa bbb ccc&apos;.split()</div><div class="line">[&apos;aaa&apos;, &apos;bbb&apos;, &apos;ccc&apos;]</div></pre></td></tr></table></figure>
+<hr>
+<p>Reference <a href="https://www.youtube.com/watch?v=haycL41dAhg&amp;list=PLfZeRfzhgQzTMgwFVezQbnpc1ck0I6CQl&amp;index=3" target="_blank" rel="external">here</a></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/04/24/python3/" class="archive-article-date">
-  	<time datetime="2017-04-24T06:23:36.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-24</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/child/2017/04/24/python3/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/04/21/python2/" class="archive-article-date">
-  	<time datetime="2017-04-21T09:30:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-21</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/04/20/python1/" class="archive-article-date">
-  	<time datetime="2017-04-20T09:10:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-20</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+<nav id="article-nav">
+  
+    <a href="/2017/04/21/python2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+</nav>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/04/19/Hexo/" class="archive-article-date">
-  	<time datetime="2017-04-19T02:24:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-19</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+
+
+
   
   
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -245,8 +275,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
