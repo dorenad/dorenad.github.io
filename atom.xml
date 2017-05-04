@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/child/"/>
-  <updated>2017-04-24T06:38:48.000Z</updated>
+  <updated>2017-05-04T14:06:09.000Z</updated>
   <id>http://yoursite.com/child/</id>
   
   <author>
@@ -14,6 +14,79 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/child/2017/05/04/Aliyun1/"/>
+    <id>http://yoursite.com/child/2017/05/04/Aliyun1/</id>
+    <published>2017-05-04T14:06:09.000Z</published>
+    <updated>2017-05-04T14:06:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<hr>
+<p>##<br>1、什么是云计算？<br>“云计算”是使用互联网接入存储或者运行在服务器端的应用、数据或者服务。</p>
+<p>2、云计算分几层？<br>分为IaaS(基础设施即服务)、PaaS(平台即服务)、SaaS(软件即服务)。基础设施在最下端，平台在中间，软件在顶端。IaaS公司会提供场外服务器、存储和网络硬件；PaaS公司在网上提供各种开发和分发应用的解决方案，比如虚拟服务器和操作系统；SaaS主要是进行网页服务。</p>
+<p>3、公有云、专有云、私有云、混合云的概念及优缺点<br>公有云：是面向大众提供计算资源的服务。由商业机构、学术机构或政府机构拥有、管理和运营，公有云在服务提供商的场所内部署。用户通过互联网使用云服务，根据使用情况付费或通过订购的方式付费。优点是成本低、扩展性非常好，缺点是对于云端的资源缺乏控制、保密数据的安全性、网络性能和匹配性问题。</p>
+<p>私有云：云平台的资源为包含多个用户的单一组织专有。私有云可由该组织、第三方或两者联合拥有、管理和运营。部署场所可以在机构内部，也可以在外部。内部私有云也称为内部云，由组织在自己的数据中心内构件，该形式在规模和资源可扩展性上有局限，但是却有利于标准化云服务管理流程和安全性，组织仍然要为物理资源承担资金和维护成本，这种方式适合那些需要对应用、平台配置和安全机制完全控制的机构。外部私有云部署在组织外部，由第三方机构负责管理。第三方为该组织提供专有的云环境，并保证私密和机密性。该方案相对内部私有云成本更低，也更便于扩展业务规模。</p>
+<p>混合云：在混合云模式中，云平台由两种不同模式（私有或公有）云平台组合而成。这些平台依然是独立实体，但是利用标准和或专有技术实现绑定，彼此之间能进行数据和应用的移植。应用混合云模式，一个机构可以将次要的应用和数据部署到公有云上，充分利用公有云在扩展性和成本上的优势。同时将任务关键型应用和数据放在私有云中，安全性更高。</p>
+<p>专有云：企业客户可在自己的数据中心内构建专属式阿里云服务。把云计算的技术架构输出到政企客户的IDC机房，以专有云的方式为客户提供云计算和大数据的基础服务，同时满足客户安全合规和数据保密的要求。提供了包括云计算、大数据、企业级互联网架构、安全等全栈云产品的API和SDK，极大地满足了客户定制化要求和生态建设。</p>
+<p>4、什么是ZStack?<br>ZStack是下一代开源的云计算IaaS软件。它主要面向的是未来的智能数据中心，通过提供完善的APIs来管理包括计算、存储和网络在内的数据中心的各种资源。用户可以基于ZStack构建自己的智能数据中心，也可以在稳定的ZStack智商搭建灵活的云应用场景，例如VDI(虚拟桌面基础架构,PaaS, SaaS等等。</p>
+<p>5、阿里云专有云产品有哪些？<br>基于阿里云飞天架构的全量云平台（Apsara Stack Enterprise）, 基于ZStack的轻量级云平台(ZStack for Alibaba Cloud), 基于阿里云飞天架构的轻量级大数据平台(Apsara Stack Insight)，支持Docker企业版的敏捷云应用平台(Apsara Stack Agility)</p>
+<p>全量云平台：基于飞天分布式操作系统，有互联网中间件及应用（SLS, MNS, ROS, API网关, DRDS, EDAS, MQ, CSB, ARMS, Quick BI）,基础架构（ECS, VPC, SLB, 容器服务）,数据库(RDS, OSS, OTS, KVStore, DTS, Oceanbase)，大数据处理(大数据计算服务,Data IDE, AnalyticDB, 流计算, 机器学习, Dtboost, 关系网络分析)，安全（云盾），以及对外的开放接口（API+SDK）,同时保证了统一管理与运维和企业级可靠性。</p>
+<p>轻量级云平台：基于计算（KVM/VMWARE),存储（DAS/NAS/SAN/DFS）(本地存储/NFS存储/SAN存储/分布式存储)和网络（VLAN/VXLAN）资源，构建了产品级的混合云IaaS平台ZStack，包括云主机管理、物理机管控、存储调度、网络功能、账号计费、实时监控，对外提供各种开放接口（API+SDK），同时提供自动化管理和运维、无缝对接阿里云公共云，保证了简单（Simple）、健壮（Strong）、弹性（Scalable）、智能（Smart）。</p>
+<p>轻量级大数据平台：基于IDC基础架构，开发了大数据开发套件DataIDE(数据集成、数据开发、离线调度、数据质量、数据管理)、关系网络分析1+（关系挖掘、可视分析、多源融合、业务智能）、大数据计算服务MaxCompute(SQL、MR、Graph、多租户、安全机制)、分析型数据库AnalyticDB（自由计算、混合存储、多租户、实时数据、安全机制），对外提供开放接口（标准SQL+API+SDK）,同时实现了自动化安装部署和可视化运维管理，实现轻量级、模块化、开放性和可定制。</p>
+<p>敏捷云应用平台：在IDC基础架构上，基于Docker引擎、容器存储（本地存储/NFS存储/SAN存储/分布式存储）、容器网络（VLAN/VXLAN）资源，开发了企业级容器应用平台，包含资源调度、微服务、DevOps、日志、监控、安全、镜像管理等，并对外开放各种接口（全兼容Docker API, CLI和三方工具），并提供自动化管理和运维、无缝对接阿里云公有云，提供敏捷、弹性、开放、混合云。</p>
+<p>6、虚拟化 vs 容器化<br>虚拟化：对于系统虚拟化技术来说，虚拟层为用户提供了一个完整的虚拟机：包括内核在内的一个完整的系统镜像。CPU虚拟化技术可以为每个用户提供一个独享且和其他用户隔离的系统环境，虚拟层可以为每个用户分配虚拟化后的CPU、内存和IO设备资源。代表是Virtual Box.</p>
+<p>容器化：容器为应用程序提供了隔离的运行空间，每个容器内都包含一个独享的完整用户环境空间，并且一个容器内的变动不会影响其他容器的运行环境。为了能达到这种效果，容器技术使用了一系列的系统级别的机制诸如利用Linux namespaces来进行空间隔离，通过文件系统的挂载点来决定容器可以访问哪些文件，通过cgroups来确定每个容器可以利用多少资源。此外容器之间共享同一个系统内核，这样当同一个库被多个容器使用时，内存的使用效率会得到提升。代表是Docker。容器化的优点是可以实现快速部署。</p>
+<p>无论是从大小、启动时间还是集成角度来说，容器化都比虚拟化要好。</p>
+<p>提到快速部署，不得不提到DevOps(Development和Operations的组合词)是一种重视“软件开发人员（Dev）”和“IT运维技术人员（Ops）”之间沟通合作的文化、运动或惯例。透过自动化“软件交付”和“架构变更”的流程，来使得构建、测试、发布软件能够更加快捷、频繁和可靠。</p>
+<p>7、什么是IDC?<br>IDC(Internet Data Center)即互联网数据中心，是为满足互联网业务和企事业信息服务需求而建设的应用基础设施，通过与互联网的高速连接，以丰富的计算、存储、网络和应用资源向服务提供商（SP）、内容提供商（CP）、各种集团客户等提供大规模、高质量、安全可靠的IDC业务。</p>
+<p>8、使用云服务器ECS搭建WordPress网站的操作步骤<br>购买ECS实例<br>部署Web环境<br>安装WordPress<br>购买域名<br>备案<br>域名解析</p>
+<p>9、Apache、Tomcat、Nginx<br>Apache和Tomcat都是web网络服务器，两者既有联系又有区别，在进行HTML、PHP、JSP、Perl等开发过程中，需要准确掌握其各自特点，选择最佳的服务器配置。<br>Apache是web服务器（静态解析，如HTML），tomcat是java应用服务器（动态解析，如JSP、PHP）,Tomcat只是一个servlet容器，可以认为是apache的扩展，但是可以独立于apache运行。<br>Apache是普通服务器，本身只支持html即普通网页，可以通过插件支持php，还可以与Tomcat连通（Apache单向链接Tomcat,）<br>Apache HTTP Server主要是静态生成资源并返回到客户端<br>Apache Tomcat主要是动态生成资源并返回客户端<br>虽然Tomcat也可认为是HTTP服务器，但通常它会和Nginx配合使用：<br>动静态资源分离–运用Nginx的反响代理功能分发请求：所有动态资源的请求交给Tomcat，而静态资源的请求（例如图片、视频、CSS、JavaScript文件等）则直接由Nginx返回到浏览器，这样能大大减轻Tomcat的压力。<br>负载均衡，当业务压力增大时，可能一个Tomcat的实例不足以处理，这时可以启动多个Tomcat实例进行水平扩展，而Nginx的负载均衡功能可以把请求通过算法分发到各个不同的实例进行处理。</p>
+<p>10、什么是VXLAN？<br>VXLAN由VMWARE、Cisco、Redhat等联合提出的解决方案，这个解决方案最主要是解决VLAN支持虚拟网络数量（4096）过少的问题。因为在公有云上的每一个租户都有不同的VPC，4096明显不够用。就有了VXLAN，它可以支持1600万个虚拟网络，基本上公有云是够用的。</p>
+<p>11、什么是中间件？<br>IDC给中间件的定义是中间件是一种独立的系统软件或服务程序，分布式应用软件借助这种软件在不同的技术之间共享资源，中间件位于客户机服务器的操作系统之上，管理计算资源和网络通信。</p>
+<p>我国学术界一般认可的定义是中间件是指网络环境下处于操作系统、数据库等系统软件和应用软件之间的一种起连接作用的分布式软件，主要解决异构网络环境下分布式应用软件的互连与互操作问题，提供标准接口、协议，屏蔽实现细节，提高应用系统易移植性。</p>
+<p>阿里云中间件由企业级分布式应用服务EDAS,分布式关系型数据库服务 DRDS, 消息队列MQ,业务实时监控服务ARMS，云服务总线CSB这五剑客组成</p>
+<p>中间件的出现解决了异构分布网络环境下软件系统的通信、互操作、协同、事务、安全等共性问题。因为其在系统中的重要性，中间件与操作系统、数据库并称为系统软件的三驾马车。</p>
+<p>12、什么是VPC?<br>VPC虚拟网络提供弹性公网IP,负载均衡SLB,NAT网关,高速通道。</p>
+<p>13、什么是对象存储OSS?<br>OSS是基于阿里云飞天分布式系统的海量、安全和高可靠的云存储服务。RESTful API的平台无关性，容量和处理能力的弹性扩展，按实际容量付费真正使您专注于核心业务。<br>存储扩展、数据共享、高速传输、成本和数据安全性等一系列挑战，为此阿里云云存储应运而生。</p>
+<p>14、什么是SOA?<br>SOA是一种设计方法，其中包含多个服务，而服务之间通过配合最终会提供一系列功能。一个服务通常以独立的形式存在于操作系统进程中。服务之间通过网络调用，而非采用进程内调用的方式进行通信。<br>SOA（面向服务架构）与B/S,C/S架构是目前最流行三种Web服务的基础架构。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;hr&gt;
+&lt;p&gt;##&lt;br&gt;1、什么是云计算？&lt;br&gt;“云计算”是使用互联网接入存储或者运行在服务器端的应用、数据或者服务。&lt;/p&gt;
+&lt;p&gt;2、云计算分几层？&lt;br&gt;分为IaaS(基础设施即服务)、PaaS(平台即服务)、SaaS(软件即服务)。基础设施在最下端，平台在
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/child/2017/04/25/python4/"/>
+    <id>http://yoursite.com/child/2017/04/25/python4/</id>
+    <published>2017-04-25T08:48:23.000Z</published>
+    <updated>2017-04-25T08:58:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<h2 id="Introduction-to-Python-Lesson-4"><a href="#Introduction-to-Python-Lesson-4" class="headerlink" title="Introduction to Python - Lesson 4"></a>Introduction to Python - Lesson 4</h2><h2 id="Pattern"><a href="#Pattern" class="headerlink" title="Pattern"></a>Pattern</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
+<hr>
+<p>Reference <a href="">here</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;Introduction-to-Python-Lesson-4&quot;&gt;&lt;a href=&quot;#Introduction-to-Python-Lesson-4&quot; class=&quot;headerlink&quot; title=&quot;Introduction to Python - 
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
